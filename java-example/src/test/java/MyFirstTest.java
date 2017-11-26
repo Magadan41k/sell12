@@ -21,7 +21,7 @@ public class MyFirstTest {
     @Test
     public  void myFirstTest() {
         driver.get("http://localhost/litecart/admin/");
-        driver.findElement(By.name("username")).sendKeys("admin" + Keys.RETURN);
+        driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin" + Keys.ENTER);
     }
 
