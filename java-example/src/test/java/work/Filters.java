@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.After;
 import org.junit.Before;
@@ -18,7 +19,7 @@ public class Filters {
 
     @Before
     public void start() {
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
     }
@@ -28,8 +29,8 @@ public class Filters {
         driver.get("http://1gl.ru/#/customer/auth/");
         //wait.until(webDriver -> driver.findElement(By.id("email")));
         //указать точное расположение поля, так как их много на странице
-        driver.findElement(By.id("email")).sendKeys("sad123jh123hjg@mailiantor.com");
-        driver.findElement(By.name("password")).sendKeys("12345");
+        driver.findElement(By.xpath("(//input[@name='email'])[2]")).sendKeys("sad123jh123hjg@mailiantor.com");
+        driver.findElement(By.xpath("(//input[@name='password'])[2]")).sendKeys("12345");
         driver.findElement(By.name("lastName")).sendKeys("Михаил");
         driver.findElement(By.name("firstName")).sendKeys("ТотСамыйМихаил");
         driver.findElement(By.name("secondName")).sendKeys("АА");
