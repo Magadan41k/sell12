@@ -98,8 +98,8 @@
       <file leaf-file-name="Test11.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/Test11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+            <state relative-caret-position="311">
+              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -806,7 +806,7 @@
       <workItem from="1513516526165" duration="4052000" />
       <workItem from="1513708364966" duration="206000" />
       <workItem from="1514376574720" duration="1249000" />
-      <workItem from="1515248256441" duration="1560000" />
+      <workItem from="1515248256441" duration="1584000" />
     </task>
     <servers />
   </component>
@@ -843,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46064000" />
+    <option name="totallyTimeSpent" value="46088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1352,8 +1352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/Test11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        <state relative-caret-position="311">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
