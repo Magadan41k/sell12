@@ -1,10 +1,10 @@
 import org.junit.Assert;
 import org.junit.Test;
-import rus.test.selenium.refactor.CheckoutPage;
-import rus.test.selenium.refactor.MainPage;
-import rus.test.selenium.refactor.ProductPage;
+import refactor.CheckoutPage;
+import refactor.MainPage;
+import refactor.ProductPage;
 
-public class Test_19 extends TestBase {
+public class Test19 extends TestBase {
 
     @Test
     public void test()
