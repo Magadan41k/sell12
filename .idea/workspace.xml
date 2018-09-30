@@ -37,7 +37,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Filters.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Filters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/refactor/Filters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -47,12 +47,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="startPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/work/startPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="518">
+              <caret line="42" column="69" lean-forward="false" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -462,9 +464,9 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/work/Registration.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/work/Registration2.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/work/properties1.java" />
-        <option value="$PROJECT_DIR$/java-example/src/test/java/work/startPage.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/refactor/Registration2.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/refactor/Filters.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/work/startPage.java" />
       </list>
     </option>
   </component>
@@ -860,44 +862,44 @@
       <workItem from="1533557659811" duration="599000" />
       <workItem from="1534157145439" duration="375000" />
       <workItem from="1536416860814" duration="5438000" />
-      <workItem from="1538333897346" duration="3964000" />
+      <workItem from="1538333897346" duration="5631000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="startPage - 2018.09.30 at 22h 43m 13s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 34m 39s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 22h 45m 10s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 36m 40s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 22h 46m 41s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 41m 17s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 22h 47m 20s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 41m 52s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 23h 22m 53s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 42m 26s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 23h 25m 39s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 46m 41s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 23h 26m 36s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 48m 18s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 23h 27m 02s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 51m 17s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 23h 27m 38s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 52m 40s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="startPage - 2018.09.30 at 23h 28m 19s.xml">
+    <history-entry file="startPage - 2018.09.30 at 23h 55m 24s.xml">
       <configuration name="startPage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64956000" />
+    <option name="totallyTimeSpent" value="66623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,6 +912,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -924,7 +927,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30869564" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.021321962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -949,7 +952,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="57" />
+      <option name="time" value="66" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1319,14 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/work/startPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/refactor/Registration2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1340,6 +1335,16 @@
         <state relative-caret-position="68">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/work/startPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="42" column="69" lean-forward="false" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
