@@ -1,4 +1,4 @@
-package work;
+package refactor;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -13,7 +13,7 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Filters {
+public class Registration2 {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -26,7 +26,7 @@ public class Filters {
 
     @Test
     public void filters() {
-        driver.get("http://1gl.ru/#/customer/auth/");
+        driver.get("http://bss-rt.1glp.ru/#/customer/auth/");
         //wait.until(webDriver -> driver.findElement(By.id("email")));
         //указать точное расположение поля, так как их много на странице
         driver.findElement(By.xpath("(//input[@name='email'])[2]")).sendKeys("sad123jh123hjg@mailiantor.com");
@@ -38,9 +38,13 @@ public class Filters {
         driver.findElement(By.name("mobilePhonePrefix")).sendKeys("000");
         driver.findElement(By.name("mobilePhoneNumber")).sendKeys("0000001");
         driver.findElement(By.name("code")).sendKeys("2946"+ Keys.ENTER);
-        driver.get("https://www.mailinator.com");
-        driver.findElement(By.id("inboxfield")).sendKeys("sad123jh123hjg@mailiantor.com"+ Keys.ENTER);
-        driver.findElement(By.cssSelector("all_message-min_text all_message-min_text-3")).click();
+        driver.get("http://sgcrm-rt.1glp.ru");
+        driver.findElement(By.name("login")).sendKeys("mtishin");
+        driver.findElement(By.name("pass")).sendKeys("Filosofo123"+ Keys.ENTER);
+        driver.findElement(By.name("login")).sendKeys("sad123jh123hjg@mailiantor.com"+ Keys.ENTER);
+        //driver.findElement(By.xpath("login")).sendKeys("sad123jh123hjg@mailiantor.com"+ Keys.ENTER);
+        //переход в профиль и подтвержение письма
+
     }
 
     @After
