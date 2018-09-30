@@ -32,18 +32,20 @@ public class startPage {
         driver.findElement(By.name("login")).sendKeys("testpo");
         driver.findElement(By.name("password")).sendKeys("testpo"+ Keys.ENTER);
         driver.findElement(By.xpath("//a[contains(text(),'Новый документ...')]")).click();
+        //ввожу данные в поля путём открытия списка и выбора нужного мне вариант
         driver.findElement(By.xpath("//span[@class='ui-autocomplete ui-widget ui-autocomplete-dd ui-autocomplete-multiple']//span[@class='ui-button-icon-left ui-clickable fa fa-fw fa-fw fa-caret-down']")).click();
         driver.findElement(By.xpath("//span[contains(text(),'Тестировщики')]")).click();
         driver.findElement(By.xpath("//span[@class='ui-autocomplete ui-widget ui-autocomplete-dd']//span[@class='ui-button-icon-left ui-clickable fa fa-fw fa-fw fa-caret-down']")).click();
         driver.findElement(By.xpath("//span[contains(text(),'Региональные НПД')]")).click();
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+        //пытаюсь открыть поп-ап с Файлами, через нажатие соответствующей кнопки, тем самым проверяю - создал ли я документ?
         driver.findElement(By.xpath("//a[contains(text(),'Файлы')]")).click();
-        //я завершаю проверку создания документа и возвращаюсь на стартовую страницу через переход по url
+        //завершаю проверку создания документа и возвращаюсь на стартовую страницу через переход по url
         driver.get("http://web-arm.1glp.ru");
-        // проверяю открытие снова поп-апа и отмены создания нового документа, через нажатие кнопки отмена
+        // проверяю открытие снова поп-апа и отмены создания нового документа, через нажатие кнопки Отмена
         driver.findElement(By.xpath("//a[contains(text(),'Новый документ...')]")).click();
         driver.findElement(By.xpath("//button[contains(text(),'Отмена')]")).click();
-        // проверяю открытие снова поп-апа и отмены создания нового документа, по нажатию крестика, в правом верхнем углу
+        // проверяю открытие снова поп-апа и отмены создания нового документа, по нажатию Крестика, в правом верхнем углу
         driver.findElement(By.xpath("//a[contains(text(),'Новый документ...')]")).click();
         driver.findElement(By.xpath("//div[@class='popup-close-btn']")).click();
     }
